@@ -6,12 +6,12 @@
     android:paddingTop="40dp"
     android:weightSum="1">
 
-    <ImageView
-        android:layout_gravity="center"
-        android:src="@drawable/dru"
-        android:layout_width="322dp"
-        android:layout_height="152dp"
-        android:layout_weight="0.71" />
+    <!--<ImageView-->
+        <!--android:layout_gravity="center"-->
+        <!--android:src="@drawable/dru"-->
+        <!--android:layout_width="322dp"-->
+        <!--android:layout_height="152dp"-->
+        <!--android:layout_weight="0.71" />-->
 
     <TextView
         android:paddingTop="5dp"

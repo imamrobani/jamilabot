@@ -5,9 +5,9 @@
     android:background="#000000"
     android:padding="40dp">
 
-    <ImageView
-        android:layout_gravity="center"
-        android:src="@drawable/dru"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+    <!--<ImageView-->
+        <!--android:layout_gravity="center"-->
+        <!--android:src="@drawable/dru"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"/>-->
 </LinearLayout>
