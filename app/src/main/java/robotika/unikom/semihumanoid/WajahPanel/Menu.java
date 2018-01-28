@@ -126,22 +126,23 @@ public class Menu extends WajahObject {
 
     //========================================Drawing===============================================
     public void draw(Canvas canvas) {
-//        if(tapMenu) {
-//            canvas.drawRect(width + i, height + j, width, height, pBg);
-//            canvas.drawBitmap(dev, (getTextWidth("Opsi Pengembang", pText) / 2 - dev.getWidth() / 2) + width + i,
-//                    (height - (getTextHeight("Opsi Pengembang", pText) + dev.getHeight() + 30)) + height + j, null);
-//            canvas.drawText("Opsi Pengembang", width + i, (height - getTextHeight("Opsi Pengembang", pText)) + height + j, pText);
-//
-//            canvas.drawText("COMING SOON", (width / 2 - getTextWidth("COMING SOON", pComming) / 2) + width + i,
-//                    (height / 2 - getTextHeight("COMING SOON", pComming) / 2) + height + j, pComming);
-//
-//            //canvas.drawBitmap(logo_video_call, width + i, height + j, null);
-//
-//            if (!Mic.bukaInfoMic && !Info.bukaInfo) {
-//                canvas.drawRoundRect(roundedButton(), 12, 12, pButton);
-//                canvas.drawText(MENU, xText, yText, pText);
-//            }
-//        }
+        if(tapMenu) {
+            canvas.drawRect(width + i, height + j, width, height, pBg);
+            //buat logo
+            //canvas.drawBitmap(dev, (getTextWidth("Opsi Pengembang", pText) / 2 - dev.getWidth() / 2) + width + i,
+              //      (height - (getTextHeight("Opsi Pengembang", pText) + dev.getHeight() + 30)) + height + j, null);
+            canvas.drawText("Opsi Pengembang", width + i, (height - getTextHeight("Opsi Pengembang", pText)) + height + j, pText);
+
+            canvas.drawText("COMING SOON", (width / 2 - getTextWidth("COMING SOON", pComming) / 2) + width + i,
+                    (height / 2 - getTextHeight("COMING SOON", pComming) / 2) + height + j, pComming);
+
+            //canvas.drawBitmap(logo_video_call, width + i, height + j, null);
+
+            if (!Mic.bukaInfoMic && !Info.bukaInfo) {
+                canvas.drawRoundRect(roundedButton(), 12, 12, pButton);
+                canvas.drawText(MENU, xText, yText, pText);
+            }
+        }
     }
 
     public void startDraw(Canvas canvas){
